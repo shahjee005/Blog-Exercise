@@ -68,8 +68,8 @@ ourArticle.innerHTML += `
   //Added a new article to the array (add "SASS" inbetween the "CSS" and "JS" articles.)
  blogArticles.splice(3,0, new Article('SASS','SASS content') );
 
- const additionalArticle = new article ('sass');
- additionalArticle.content = '!!!!!!!Our very first large JavaScript framework, how exciting! Now we can build web components and build more complex front-ends with ease... a bit of a learning curve but so useful now that we are getting the hang of it!!!!!!!!!!!!!!!!';
+ const additionalArticle = new article ('SASS');
+ additionalArticle.content = '!Lets give it a short and see if splice will work and will add another artciale in between "CSS" and "JavaScript" with its contents also.I am not sure if it will take its content also .Good luck :)';
 
 
 
